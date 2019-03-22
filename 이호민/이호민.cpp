@@ -1,4 +1,4 @@
-﻿#include <CoalaMOD.h>
+#include <CoalaMOD.h>
 #include <stdio.h>
 #pragma comment(lib, "CoalaMOD.lib")
 #include <math.h>
@@ -16,13 +16,20 @@ int main() {
 	double radian = dir * pi / 180.;
 	int dx = -150 * sin(radian);
 	int dz = 150 * cos(radian);
-	/*double dir = getPlayerDirection();
+	px += dx;
+	pz += dz;
+	//print("%d %d %d", px, py, pz);
+	/*
+	#include <math.h>	이 해더 문장은 코드의 맨 윗줄에 적으세요.
+	int px, py, pz;
+	getPlayerLocation(&px, &py, &pz);
+	double dir = getPlayerDirection();
 	double radian = dir * pi / 180.;
 	int dx = 이 칸은 건물의 x좌표의 길이를 음수로 적으세요. * sin(radian);
 	int dz = 이 칸은 건물의 y좌표의 길이를 양수로 적으세요. * cos(radian);
-	*/
 	px += dx;
 	pz += dz;
+	*/
 	printf("%d %d %d", px, py, pz);
 	for (i = 1; i < 100; i += 2) {
 		for (j = 0; j < i; j += 2) {
