@@ -18,8 +18,11 @@ int main() {
 	int dz = 150 * cos(radian);
 	px += dx;
 	pz += dz;
-	//print("%d %d %d", px, py, pz);
-	/*
+	//플레이어의 좌표와 sin, cos값을 알아보기위한 주석
+	//print("%d %d %d\n", px, py, pz);
+	//printf("% d%d", dx, dz);
+	//printf("%llf %llf\n", dir, radian);
+	/*< 예시주석 >
 	#include <math.h>	이 해더 문장은 코드의 맨 윗줄에 적으세요.
 	int px, py, pz;
 	getPlayerLocation(&px, &py, &pz);
@@ -30,6 +33,8 @@ int main() {
 	px += dx;
 	pz += dz;
 	*/
+
+	//역피라미드 1단
 	printf("%d %d %d", px, py, pz);
 	for (i = 1; i < 100; i += 2) {
 		for (j = 0; j < i; j += 2) {
@@ -47,7 +52,7 @@ int main() {
 			}
 		}
 	}
-
+	//받침대
 	for (i = 1; i < 100; i += 2) {
 		for (j = 101 - i; j > i; j -= 2) {
 			for (l = 101 - j; l > j; l -= 2) {
@@ -64,7 +69,7 @@ int main() {
 			}
 		}
 	}
-
+	//역피라미드 2단
 	for (i = 1; i < 100; i += 2) {
 		for (j = 0; j < i; j += 2) {
 			for (l = 0; l < j; l += 2) {
