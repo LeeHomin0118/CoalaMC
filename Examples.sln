@@ -9,8 +9,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example2", "Example2\Exampl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example3", "Example3\Example3.vcxproj", "{396BC78C-30B3-4322-8122-FD0A261485C7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example4", "Example4\Example4.vcxproj", "{7C65EB33-ACF9-4150-A6F1-E622C744454E}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "이호민", "이호민\이호민.vcxproj", "{425E5CA9-8365-4AD4-B079-5AD82F4C8AA1}"
 EndProject
 Global
