@@ -26,7 +26,7 @@ int main() {
 	double dir = getPlayerDirection();
 	double radian = dir * pi / 180.;
 	int dx = 이 칸은 건물의 x좌표의 길이를 음수로 적으세요. * sin(radian);
-	int dz = 이 칸은 건물의 y좌표의 길이를 양수로 적으세요. * cos(radian);
+	int dz = 이 칸은 건물의 z좌표의 길이를 양수로 적으세요. * cos(radian);
 	px += dx;
 	pz += dz;
 	*/
