@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "이호민", "이호민\이�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "개인과제", "개인과제\개인과제.vcxproj", "{201389E3-3FA0-45E4-A8AB-F200ADFDB5A8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6주차_퀴즈_2번", "6주차_퀴즈_2번\6주차_퀴즈_2번.vcxproj", "{86E255F1-752E-450A-9902-4FF2DD56B7C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{201389E3-3FA0-45E4-A8AB-F200ADFDB5A8}.Release|x64.Build.0 = Release|x64
 		{201389E3-3FA0-45E4-A8AB-F200ADFDB5A8}.Release|x86.ActiveCfg = Release|Win32
 		{201389E3-3FA0-45E4-A8AB-F200ADFDB5A8}.Release|x86.Build.0 = Release|Win32
+		{86E255F1-752E-450A-9902-4FF2DD56B7C9}.Debug|x64.ActiveCfg = Debug|x64
+		{86E255F1-752E-450A-9902-4FF2DD56B7C9}.Debug|x64.Build.0 = Debug|x64
+		{86E255F1-752E-450A-9902-4FF2DD56B7C9}.Debug|x86.ActiveCfg = Debug|Win32
+		{86E255F1-752E-450A-9902-4FF2DD56B7C9}.Debug|x86.Build.0 = Debug|Win32
+		{86E255F1-752E-450A-9902-4FF2DD56B7C9}.Release|x64.ActiveCfg = Release|x64
+		{86E255F1-752E-450A-9902-4FF2DD56B7C9}.Release|x64.Build.0 = Release|x64
+		{86E255F1-752E-450A-9902-4FF2DD56B7C9}.Release|x86.ActiveCfg = Release|Win32
+		{86E255F1-752E-450A-9902-4FF2DD56B7C9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
