@@ -115,6 +115,7 @@ int main()
 	printf("%s --> %llx\n", sentence, code);
 
 	unsigned long long int n = code;
+	char sent[32] = { 0 };
 
 	while (1) {
 		arr[i] = n % 2;
@@ -125,9 +126,9 @@ int main()
 
 	i = 63;
 	while (1) {
-		sentence[cnt] = findc(i);
-		if (sentence[cnt] == '.') break;
+		sent[cnt] = findc(i);
+		if (sent[cnt] == '.'||i<0) break;
 		++cnt;
 	}
-	printf("%s", sentence);
+	printf("%s", sent);
 }
