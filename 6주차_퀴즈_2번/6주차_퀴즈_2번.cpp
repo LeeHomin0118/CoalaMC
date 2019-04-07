@@ -4,6 +4,58 @@
 typedef unsigned long long HuffmanCode;
 #define CASE_HUFFMAN_CODE(_c, _h, _s)    case _c: h = 0b ## _h; s = _s;
 
+int arr[100] = { 0 };
+int i = 0, cnt = 0;
+char c[30] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o',
+		'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ',', '.', ' ' };
+char sentence[32] = { 0 };
+int number[30][9] = { {4, 1, 0, 0, 1},
+				   {7, 1, 0, 0, 0, 0, 1, 0},
+				   {4, 0, 0, 0, 1},
+				   {4, 0, 1, 0, 0},
+				   {4, 1, 1, 1, 0},
+				   {5, 1, 1, 0, 1, 1},
+				   {6, 0, 0, 0, 0, 0, 0},
+				   {5, 1, 1, 0, 1, 0},
+				   {4, 0, 1, 1, 0},
+				   {8, 0, 0, 0, 0, 0, 1, 1, 1},
+				   {8, 0, 1, 0, 1, 0, 1, 0, 0},
+				   {5, 0, 0, 0, 0, 1},
+				   {5, 1, 1, 1, 1, 0},
+				   {4, 0, 1, 1, 1},
+				   {4, 1, 1, 0, 0},
+				   {5, 0, 1, 0, 1, 1},
+				   {8, 0, 1, 0, 1, 0, 1, 0, 1},
+				   {5, 1, 1, 1, 1 ,1},
+				   {4, 0, 0, 1, 1},
+				   {4, 0, 0, 1, 0},
+				   {5, 1, 0, 0, 0, 1},
+				   {8, 1, 0, 0, 0, 0, 1, 1, 1},
+				   {7, 0, 0, 0, 0, 0, 1, 0},
+				   {8, 0, 0, 0, 0, 0, 1, 1, 0},
+				   {6, 1, 0, 0, 0, 0, 0},
+				   {8, 0, 1, 0, 1, 0, 1, 1, 0},
+				   {7, 0, 1, 0, 1, 0, 1, 1},
+				   {6, 0, 1, 0, 1, 0, 0},
+				   {3, 1, 0, 1},
+};
+
+char findc(int j) {
+	for (int k = 0; k < 29; k++) {
+		int temp = 0;
+		for (int l = 1, p = j; l <= number[k][0]; l++, p--) {
+			//printf("%d %d %d %d %d\n", k, l, p, arr[p], number[k][l]);
+			if (arr[p] != number[k][l]) {
+				temp++;
+			}
+		}
+		if (temp == 0) {
+			i -= number[k][0];
+			return c[k];
+		}
+	}
+}
+
 int main()
 {
 	char sentence[32];
@@ -61,4 +113,21 @@ int main()
 	}
 
 	printf("%s --> %llx\n", sentence, code);
+
+	unsigned long long int n = code;
+
+	while (1) {
+		arr[i] = n % 2;
+		n /= 2;
+		i++;
+		if (n == 0) break;
+	}
+
+	i = 63;
+	while (1) {
+		sentence[cnt] = findc(i);
+		if (sentence[cnt] == '.') break;
+		++cnt;
+	}
+	printf("%s", sentence);
 }

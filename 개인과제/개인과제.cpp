@@ -1,4 +1,29 @@
 ﻿#include <CoalaMOD.h>
+#include <stdio.h>
+#pragma comment(lib, "CoalaMOD.lib")
+#include <math.h>
+int main() {
+	double pi = 3.14159265358979323846;
+	BlockID my_stone = createBlock(BLOCK_NETHERRACK);
+	BlockID my_dirt = createBlock(BLOCK_LAPIS_LAZULI);
+	BlockID my_air = createBlock(BLOCK_AIR);
+	BlockID my_glass = createBlock(BLOCK_STAINED_GLASS);
+	BlockID my_glow = createBlock(BLOCK_GLOWSTONE);
+	int i, j, l, k;
+	int px, py, pz;
+	getPlayerLocation(&px, &py, &pz);
+	double dir = getPlayerDirection();
+	double radian = dir * pi / 180.;
+	int dx = -150 * sin(radian);
+	int dz = 150 * cos(radian);
+	px += dx;
+	pz += dz;
+}
+
+
+
+/*
+#include <CoalaMOD.h>
 #pragma comment(lib, "CoalaMOD.lib")
 #include <stdio.h>
 #include <time.h>
@@ -299,3 +324,5 @@ void dot_print(int hour) {
 		printf("■");
 	}
 }
+
+*/
