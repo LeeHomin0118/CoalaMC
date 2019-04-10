@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "사우론의_눈", "사우�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "디지털_시계", "디지털_시계\디지털_시계.vcxproj", "{42A34034-3C40-4545-8ABD-ED8E9A9A3C23}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7주차 퀴즈", "7주차 퀴즈\7주차 퀴즈.vcxproj", "{D11A7AB5-8458-4499-8FF9-B5DB12B30986}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{42A34034-3C40-4545-8ABD-ED8E9A9A3C23}.Release|x64.Build.0 = Release|x64
 		{42A34034-3C40-4545-8ABD-ED8E9A9A3C23}.Release|x86.ActiveCfg = Release|Win32
 		{42A34034-3C40-4545-8ABD-ED8E9A9A3C23}.Release|x86.Build.0 = Release|Win32
+		{D11A7AB5-8458-4499-8FF9-B5DB12B30986}.Debug|x64.ActiveCfg = Debug|x64
+		{D11A7AB5-8458-4499-8FF9-B5DB12B30986}.Debug|x64.Build.0 = Debug|x64
+		{D11A7AB5-8458-4499-8FF9-B5DB12B30986}.Debug|x86.ActiveCfg = Debug|Win32
+		{D11A7AB5-8458-4499-8FF9-B5DB12B30986}.Debug|x86.Build.0 = Debug|Win32
+		{D11A7AB5-8458-4499-8FF9-B5DB12B30986}.Release|x64.ActiveCfg = Release|x64
+		{D11A7AB5-8458-4499-8FF9-B5DB12B30986}.Release|x64.Build.0 = Release|x64
+		{D11A7AB5-8458-4499-8FF9-B5DB12B30986}.Release|x86.ActiveCfg = Release|Win32
+		{D11A7AB5-8458-4499-8FF9-B5DB12B30986}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
