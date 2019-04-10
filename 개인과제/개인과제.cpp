@@ -115,32 +115,7 @@ my_nether_wart,				//49
 my_bone,					//50
 };
 
-/*
-void room(int sx, int sy, int sz, int ex, int ey, int ez) {
-	int tmpx = sx, tmpy = sy, tmpz = sz;
-	for (int q = 0; q < 5; q++) {
-		for (int t = 0; t < ey - sy; t++) {
-			for (int i = 0; i < 5; i++) {
-				for (int l = 0; l < ex - sx; l++) {
-					for (int j = 0; j < 2; j++) {
-						for (int k = 0; k < ez - sz; k++) {
-							printf("%2d ", arr[i][q][j]);
-							locateBlock(c[arr[i][q][j]-1], tmpx+l, tmpy+t, tmpz+k);
-						}
-						//tmpz += 2;
-					}
-					printf("*****\n");
-				}
-				//tmpx += 5;
-			}
-			printf("***\n");
-		}
-		//tmpy += 5;
-	}
-}
-*/
-
-
+	
 /*
 int arr[100][100][100] = { {{1,26},{2,27},{3,28},{4,29},{5,30}},
 						   {{6,31},{7,32},{8,33},{9,34},{10,35}},
