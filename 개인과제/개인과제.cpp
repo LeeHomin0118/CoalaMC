@@ -101,104 +101,104 @@ WoodID my_wood_acacia = createWood(WOOD_ACACIA, STRIP_UP_DOWN);		//4
 WoodID my_wood_dark_oak = createWood(WOOD_DARK_OAK, STRIP_UP_DOWN);	//5
 
 BlockID b[60] = {
-my_air,						//0
-my_stone,					//1
-my_granite,					//2
-my_polished_granite,		//3
-my_diorite,					//4
-my_polished_diorite,		//5
-my_andesite,				//6
-my_polished_andesite,		//7
-my_grass,					//8
-my_dirt,					//9
-my_coarse_dirt,				//10
-my_podzol,					//11
-my_cobblestone,				//12
-my_bedrock,					//13
-my_sand,					//14
-my_red_sand,				//15
-my_gravel,					//16
-my_glass,					//17
-my_lapis_lazuli,			//18
-my_sand_stone,				//19
-my_chiseled_sand_stone,		//20
-my_smooth_sand_stone,		//21
-my_gold,					//22
-my_iron,					//23
-my_tnt,						//24
-my_mossy_cobblestone,		//25
-my_obsidian,				//26
-my_diamond,					//27
-my_clay,					//28
-my_netherrack,				//29
-my_soul_sand,				//30
-my_glowstone,				//31
-my_stained_glass,			//32
-my_melon,					//33
-my_mycelium,				//34
-my_end_stone,				//35
-my_emerald,					//36
-my_nether_quartz,			//37
-my_slime,					//38
-my_prismarine,				//39
-my_hey_bale,				//40
-my_coal,					//41
-my_red_sandstone,			//42
-my_chiseled_red_santstone,	//43
-my_smooth_red_sandstone,	//44
-my_purpur,					//45
-my_purpur_pillar,			//46
-my_grass_path,				//47
-my_magma,					//48
-my_nether_wart,				//49
-my_bone,					//50
+my_air,						//0		0
+my_stone,					//1		1
+my_granite,					//2		2
+my_polished_granite,		//3		3
+my_diorite,					//4		4
+my_polished_diorite,		//5		5
+my_andesite,				//6		6
+my_polished_andesite,		//7		7
+my_grass,					//8		8
+my_dirt,					//9		9
+my_coarse_dirt,				//10	10
+my_podzol,					//11	11
+my_cobblestone,				//12	12
+my_bedrock,					//13	13
+my_sand,					//14	14
+my_red_sand,				//15	15
+my_gravel,					//16	16
+my_glass,					//17	17
+my_lapis_lazuli,			//18	18
+my_sand_stone,				//19	19
+my_chiseled_sand_stone,		//20	20
+my_smooth_sand_stone,		//21	21
+my_gold,					//22	22
+my_iron,					//23	23
+my_tnt,						//24	24
+my_mossy_cobblestone,		//25	25
+my_obsidian,				//26	26
+my_diamond,					//27	27
+my_clay,					//28	28
+my_netherrack,				//29	29
+my_soul_sand,				//30	30
+my_glowstone,				//31	31
+my_stained_glass,			//32	32
+my_melon,					//33	33
+my_mycelium,				//34	34
+my_end_stone,				//35	35
+my_emerald,					//36	36
+my_nether_quartz,			//37	37
+my_slime,					//38	38
+my_prismarine,				//39	39
+my_hey_bale,				//40	40
+my_coal,					//41	41
+my_red_sandstone,			//42	42
+my_chiseled_red_santstone,	//43	43
+my_smooth_red_sandstone,	//44	44
+my_purpur,					//45	45
+my_purpur_pillar,			//46	46
+my_grass_path,				//47	47
+my_magma,					//48	48
+my_nether_wart,				//49	49
+my_bone,					//50	50
 };
 
 CarpetID c[20] = {
-my_carpet_white,		//0
-my_carpet_orange,		//1
-my_carpet_magenta,		//2
-my_carpet_light_blue,	//3
-my_carpet_yellow,		//4
-my_carpet_lime,			//5
-my_carpet_pink,			//6
-my_carpet_gray,			//7
-my_carpet_light_gray,	//8
-my_carpet_cyan,			//9
-my_carpet_purple,		//10
-my_carpet_blue,			//11
-my_carpet_brown,		//12
-my_carpet_green,		//13
-my_carpet_red,			//14
-my_carpet_black,		//15
+my_carpet_white,		//0		51
+my_carpet_orange,		//1		52
+my_carpet_magenta,		//2		53
+my_carpet_light_blue,	//3		54
+my_carpet_yellow,		//4		55
+my_carpet_lime,			//5		56
+my_carpet_pink,			//6		57
+my_carpet_gray,			//7		58
+my_carpet_light_gray,	//8		59
+my_carpet_cyan,			//9		60
+my_carpet_purple,		//10	61
+my_carpet_blue,			//11	62
+my_carpet_brown,		//12	63
+my_carpet_green,		//13	64
+my_carpet_red,			//14	65
+my_carpet_black,		//15	66
 };
 
 WoolID wl[20] = {
-my_wool_white,		//0
-my_wool_orange,		//1
-my_wool_magenta,	//2
-my_wool_light_blue,	//3
-my_wool_yellow,		//4
-my_wool_lime,		//5
-my_wool_pink,		//6
-my_wool_gray,		//7
-my_wool_light_gray,	//8
-my_wool_cyan,		//9
-my_wool_purple,		//10
-my_wool_blue,		//11
-my_wool_brown,		//12
-my_wool_green,		//13
-my_wool_red,		//14
-my_wool_black,		//15
+my_wool_white,		//0		67
+my_wool_orange,		//1		68
+my_wool_magenta,	//2		69
+my_wool_light_blue,	//3		70
+my_wool_yellow,		//4		71
+my_wool_lime,		//5		72
+my_wool_pink,		//6		73
+my_wool_gray,		//7		74
+my_wool_light_gray,	//8		75
+my_wool_cyan,		//9		76
+my_wool_purple,		//10	77
+my_wool_blue,		//11	78
+my_wool_brown,		//12	79
+my_wool_green,		//13	80
+my_wool_red,		//14	81
+my_wool_black,		//15	82
 };
 
 WoodID wd[10] = {
-my_wood_oak,		//0
-my_wood_spruce,		//1
-my_wood_birch,		//2
-my_wood_jungle,		//3
-my_wood_acacia,		//4
-my_wood_dark_oak,	//5
+my_wood_oak,		//0		83
+my_wood_spruce,		//1		84
+my_wood_birch,		//2		85
+my_wood_jungle,		//3		86
+my_wood_acacia,		//4		87
+my_wood_dark_oak,	//5		88
 };
 
 /*
@@ -243,7 +243,10 @@ void room(int sx, int sy, int sz, int ex, int ey, int ez) {
 					for (int j = 0; j < 10; j++) {
 						for (int k = 0; k < (ez - sz) / 10; k++) {
 							//printf("%2d ", arr[i][q][j]);
-							locateBlock(b[arr[i][q][j]], tmpx, tmpy, tmpz);
+							if (arr[i][q][j] < 51) locateBlock(b[arr[i][q][j]], tmpx, tmpy, tmpz);
+							else if (arr[i][q][j] < 67) locateCarpet(c[arr[i][q][j] % 51], tmpx, tmpy, tmpz);
+							else if (arr[i][q][j] < 83) locateWool(wl[arr[i][q][j] % 67], tmpx, tmpy, tmpz);
+							else if (arr[i][q][j] < 89) locateWood(wd[arr[i][q][j] % 83], tmpx, tmpy, tmpz);
 							++tmpz;
 						}
 					}
